@@ -49,11 +49,11 @@ menu "Sparta Ion Config"
 
     config ION_CU2
         bool "Enable CU2 display support"
-        default y
+        default n
 
     config ION_CU3
         bool "Enable CU3 display support"
-        default n
+        default y
 
     config ION_UART
         int "UART number connected to bus"
@@ -65,7 +65,7 @@ menu "Sparta Ion Config"
 
     config ION_TXD
         int "Send pin connected to bus"
-        default 17
+        default 25
 
     config ION_ADC
         bool "Enable ADC for battery voltage measurement"
